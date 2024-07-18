@@ -62,7 +62,7 @@
 	.profile-border{border: 0;}
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
-	
+	.welcome-hero{background:url(../images/about/welcome-banner-phone.jpg)no-repeat;}
 
 }/*max-width:767px*/
 
