@@ -63,15 +63,8 @@
 
 	.single-horizontal-timeline {max-width: 350px;margin: 30px auto;}
 	.welcome-hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:relative;
-    background:url(../images/about/welcome-banner-phone.jpg)no-repeat;
-    background-size:cover;
-    background-position: center;
-    height:890px;
-}
+        background:url(../images/about/welcome-banner-phone.jpg)no-repeat;}
+
 }/*max-width:767px*/
 
 @media screen and (max-width: 660px){
