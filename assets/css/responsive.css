@@ -1,196 +1,114 @@
-@media screen and (max-width:1680px){
+/* Base Styles */
+/* ... (your existing styles) ... */
 
-}/*max-width:1680px*/
-/* Max-width 1440px */
-@media screen and (max-width: 1440px) {
-    .single-about-img img {
-        max-width: 100%;
-    }
-    .single-about-img:before,
-    .about-list-icon {
-        width: 100%;
-    }
-}
-
-/* Max-width 1199px */
-@media screen and (max-width: 1199px) {
-    nav.navbar.bootsnav ul.nav > li > a {
-        padding: 35px 8px;
-    }
-    .welcome-hero {
-        height: 768px;
-    }
-    .timeline-content span > i,
-    .experience-time span > i {
-        left: -15.5%;
-    }
-}
-@media screen and (max-width:1024px){
-
-
-}/*max-width:1024px*/
-
-@media screen and (max-width: 1008px) {
-    nav.navbar.bootsnav ul.nav > li.dropdown span.megamenu-title {
-        display: block;
-        color: #43465d;
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar-header a.navbar-brand {
+        padding: 20px 0;
         font-size: 18px;
     }
-    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-title a {
-        margin-top: 20px;
+
+    .header-text h2 {
+        font-size: 40px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+    }
+
+    .header-text a {
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .about-content {
+        padding-top: 80px;
+    }
+
+    .single-about-txt h3, .single-about-add-info h3, .section-heading h2, .single-progress-txt h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-text h2 {
+        font-size: 35px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+    }
+
+    .header-text a {
+        width: 160px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .about-content, .skills {
+        padding: 30px 0 50px;
+    }
+
+    .single-about-txt p, .single-progress-txt {
         font-size: 14px;
     }
-    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li .megamenu-sub-txt a {
-        margin-bottom: 15px;
-    }
-}
-/* Max-width 992px */
-@media screen and (max-width: 992px) {
-    nav.navbar.bootsnav .navbar-collapse.collapse.in {
-        padding-bottom: 30px;
-    }
-    nav.navbar.bootsnav .navbar-toggle {
-        display: inline-block;
-        float: right;
-        margin-right: 0;
-        margin-top: 21px;
-    }
-    nav.navbar.bootsnav .navbar-brand {
-        float: left !important;
-    }
-    nav.navbar.bootsnav ul.nav > li > a {
-        padding: 15px 0px;
-        border: transparent;
-    }
-}
-/* Max-width 991px */
-@media screen and (max-width: 991px) {
-    .experience-time-responsive {
-        display: block;
-    }
-    .experience-time-main {
-        display: none;
-    }
-    .experience-time,
-    .timeline-content {
-        text-align: left;
-        margin-bottom: 20px;
-        margin-left: 40px;
-    }
-    .timeline-content span > i {
-        left: 0%;
-        top: -54%;
-    }
-    .experience-time span > i {
-        left: -6%;
-        top: 6%;
-    }
-    .main-timeline:before {
-        left: 0.4%;
-    }
-    .single-horizontal-timeline .experience-time,
-    .single-horizontal-timeline .timeline-content {
-        margin: 0;
+
+    .single-about-img, .about-list-icon ul {
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (max-width:768px){
-    
-}/*max-width:768px*/
+@media (max-width: 768px) {
+    .navbar-header a.navbar-brand {
+        font-size: 16px;
+    }
 
-/* Max-width 767px */
-@media screen and (max-width: 767px) {
-    .single-about-img {
-        max-width: 100%; /* Adjusted from 450px */
+    .header-text h2 {
+        font-size: 30px;
     }
-    .experience-time span > i,
-    .timeline-content span > i,
-    .main-timeline:before {
-        display: none;
+
+    .header-text p {
+        font-size: 14px;
     }
-    .experience-time,
-    .timeline-content {
-        margin-left: 0;
+
+    .header-text a {
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
     }
-    .isotope .item {
-        max-width: 100%; /* Adjusted from 350px */
-        margin: 0 auto 30px;
-    }
-    .single-profile {
-        max-width: 100%; /* Adjusted from 350px */
-        margin: 30px auto;
-        border: 0;
-    }
-    .profile-border {
-        border: 0;
-    }
-    .single-horizontal-timeline {
-        max-width: 100%; /* Adjusted from 350px */
-        margin: 30px auto;
-    }
-}/* Max-width 767px */
-@media screen and (max-width: 767px) {
-    .single-about-img {
-        max-width: 100%; /* Adjusted from 450px */
-    }
-    .experience-time span > i,
-    .timeline-content span > i,
-    .main-timeline:before {
-        display: none;
-    }
-    .experience-time,
-    .timeline-content {
-        margin-left: 0;
-    }
-    .isotope .item {
-        max-width: 100%; /* Adjusted from 350px */
-        margin: 0 auto 30px;
-    }
-    .single-profile {
-        max-width: 100%; /* Adjusted from 350px */
-        margin: 30px auto;
-        border: 0;
-    }
-    .profile-border {
-        border: 0;
-    }
-    .single-horizontal-timeline {
-        max-width: 100%; /* Adjusted from 350px */
-        margin: 30px auto;
+
+    .single-about-txt, .single-about-add-info, .section-heading, .single-progress-txt {
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width: 660px){
+@media (max-width: 576px) {
+    .header-text h2 {
+        font-size: 25px;
+    }
 
-}/*max-width:660px*/
+    .header-text p {
+        font-size: 12px;
+    }
 
-@media screen and (max-width: 640px){
+    .header-text a {
+        width: 120px;
+        height: 35px;
+        line-height: 35px;
+    }
 
-}/*max-width:640px*/
+    .navbar-header a.navbar-brand {
+        padding: 10px 0;
+        font-size: 14px;
+    }
 
-@media screen and (max-width: 580px){
+    .single-about-txt, .single-about-add-info, .section-heading, .single-progress-txt {
+        font-size: 12px;
+    }
 
-}/*max-width:580px*/
-
-@media screen and (max-width: 540px) {
-    .subscribe-title h2 {
-        font-size: 24px;
+    .skills, .about {
+        padding: 20px 0 40px;
     }
 }
-
-@media screen and (max-width: 480px){
-	
-}/*max-width:480px*/
-
-@media screen and (max-width: 440px){
-	
-}/*max-width:400px*/
-
-@media screen and (max-width:350px){
-
-}/*max-width:350px*/
-
-@media screen and  (max-width: 320px){
-	
-}/*max-width:320px*/
-
