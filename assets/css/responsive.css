@@ -60,6 +60,58 @@
     background-size:cover;
     background-position: center;
     height:890px;
+	}
+	.about {	
+	 position: relative;
+    padding: 0px 0 300px;
+    overflow: hidden; }
+	
+	.single-about-txt h3 {
+		margin-top: 20px;}
+		
+	.about-content {padding-top: 0px;}
+	
+	.skill-content{padding: 0px 0 100px;}
+	
+	.single-skill-content{padding-top: 10px;}
+	
+	.slide_viewer {
+	  height: 200px;
+	  overflow: hidden;
+	  position: relative;
+	}
+	
+	.portfolio{
+		padding-bottom: 0px;
+	}
+	
+	.slide_buttons {
+	  display: none;
+	}
+	
+	.directional_nav {
+	  height: 340px;
+	  margin: 0 auto;
+	  max-width: 2500px;
+	  position: relative;
+	  top: -150px;
+	}
+	
+	.previous_btn {
+	  bottom: 0;
+	  left: 160px;
+	  margin: auto;
+	  position: absolute;
+	  top: 40px;
+	}
+
+	.next_btn {
+	  bottom: 0;
+	  margin: auto;
+	  position: absolute;
+	  right: 160px;
+	  top: 40px;
+	}
 }/*max-width:767px*/
 
 @media screen and (max-width: 660px){
