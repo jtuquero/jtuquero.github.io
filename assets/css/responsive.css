@@ -88,13 +88,17 @@
 	.slide_buttons {
 	  display: none;
 	}
+	.slide-button {
+		z-index: 10;
+		bottom: 250px; 
+	}
 	
 	.directional_nav {
 	  height: 340px;
 	  margin: 0 auto;
 	  max-width: 2500px;
 	  position: relative;
-	  top: -150px;
+	  top: -50px;
 	}
 	
 	.previous_btn {
