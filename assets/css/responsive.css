@@ -39,10 +39,91 @@
 
 	.single-new-cars-item {max-width: 450px; margin: 0 auto;}
 	.new-cars-txt {margin: 30px 0;}
+	.slide_viewer {
+	  height: 200px;
+	  overflow: hidden;
+	  position: relative;
+	}
+	
+	.portfolio{
+		padding-bottom: 0px;
+	}
+	
+	.slide_buttons {
+	  display: none;
+	}
+	.slide-button {
+		z-index: 10;
+		bottom: 250px; 
+	}
+	
+	.directional_nav {
+	  height: 340px;
+	  margin: 0 auto;
+	  max-width: 2500px;
+	  position: relative;
+	  top: -50px;
+	}
+	
+	.previous_btn {
+	  bottom: 0;
+	  left: 160px;
+	  margin: auto;
+	  position: absolute;
+	  top: 40px;
+	}
+
+	.next_btn {
+	  bottom: 0;
+	  margin: auto;
+	  position: absolute;
+	  right: 160px;
+	  top: 40px;
+	}
 }/*max-width:991px*/
 
 @media screen and (max-width:768px){
-    
+    .slide_viewer {
+	  height: 200px;
+	  overflow: hidden;
+	  position: relative;
+	}
+	
+	.portfolio{
+		padding-bottom: 0px;
+	}
+	
+	.slide_buttons {
+	  display: none;
+	}
+	.slide-button {
+		z-index: 10;
+		bottom: 250px; 
+	}
+	
+	.directional_nav {
+	  height: 340px;
+	  margin: 0 auto;
+	  max-width: 2500px;
+	  position: relative;
+	  top: -50px;
+	}
+	
+	.previous_btn {
+	  bottom: 0;
+	  left: 160px;
+	  margin: auto;
+	  position: absolute;
+	  top: 40px;
+	}
+
+	.next_btn {
+	  bottom: 0;
+	  margin: auto;
+	  position: absolute;
+	  right: 160px;
+	  top: 40px;
+	}
 }/*max-width:768px*/
 
 @media screen and (max-width:767px){
