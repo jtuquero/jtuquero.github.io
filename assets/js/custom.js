@@ -1,21 +1,5 @@
 $(document).ready(function(){
 	"use strict";
-    
-        /*==================================
-* Author        : "ThemeSine"
-* Template Name : CarVilla HTML Template
-* Version       : 1.0
-==================================== */
-
-
-
-
-/*=========== TABLE OF CONTENTS ===========
-1. Scroll To Top
-2. welcome animation support
-3. owl carousel
-======================================*/
-
     // 1. Scroll To Top 
 		$(window).on('scroll',function () {
 			if ($(this).scrollTop() > 300) {
