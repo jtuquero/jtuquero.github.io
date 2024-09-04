@@ -151,9 +151,27 @@ $('.slider').each(function() {
   var $this = $(this);
   var $group = $this.find('.slide_group');
   var $slides = $this.find('.slide');
+  var $buttonLink = $('#slide-action-button'); // Button to be updated
   var bulletArray = [];
   var currentIndex = 0;
   var timeout;
+  
+  // Array to hold the URLs for each slide
+  var slideLinks = [
+    'https://beta.websiteadmin.thryv.com/preview/467e8c9d52c741b5a93d86c5a356c18b?t=1724247289745',
+    'https://siteeditor.thryv.com/preview/fe7c433d?t=1724245731371',
+    'https://siteeditor.thryv.com/preview/2eef4e4b?t=1724246833737',
+    'https://www.tkatchdentistry.com/',
+	'https://siteeditor.thryv.com/preview/31acd9e5?t=1724246374382',
+	'https://siteeditor.thryv.com/preview/671438f3?t=1724248127993',
+	'https://siteeditor.thryv.com/preview/53645170?t=1724248333451a',
+	'https://siteeditor.thryv.com/preview/e123c097?t=1724248825448',
+    // Add more links corresponding to the number of slides
+  ];
+  
+  function updateButtonLink(index) {
+    $buttonLink.attr('href', slideLinks[index]);
+  }
   
   function move(newIndex) {
     var animateLeft, slideLeft;
@@ -192,6 +210,7 @@ $('.slider').each(function() {
         left: 0
       });
       currentIndex = newIndex;
+      updateButtonLink(currentIndex); // Update button link based on the current slide
     });
   }
   
@@ -235,4 +254,6 @@ $('.slider').each(function() {
   });
   
   advance();
+  updateButtonLink(currentIndex); // Initial link setup
 });
+
