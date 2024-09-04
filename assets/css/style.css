@@ -434,11 +434,56 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     background-size: contain;
 }
 
+/* Center the circular buttons at the bottom */
 .slide_buttons {
-  left: 0;
   position: absolute;
-  right: 0;
+  bottom: 220px; /* Adjust the space from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
+}
+
+/* Position Learn More button closer to the content above */
+.slide-button {
+  position: absolute;
+  bottom: 280px; /* Adjust this value to bring the button closer to the content above */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.slide-button-link {
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  width: 230px;
+  height: 60px;
+  background: #4e4ffa;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 20px; /* Adjust this value to reduce the gap from the content above */
+  -webkit-transition: .3s linear; 
+  -moz-transition:.3s linear; 
+  -ms-transition:.3s linear; 
+  -o-transition:.3s linear;
+  transition: .3s linear;
+}
+
+.slide-button-link:hover {
+   display: flex; /* Use flexbox to center content */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  width: 230px;
+  height: 60px;
+  background: #0102fa;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 20px; /* Adjust this value to reduce the gap from the content above */
+  -webkit-transition: .3s linear; 
+  -moz-transition:.3s linear; 
+  -ms-transition:.3s linear; 
+  -o-transition:.3s linear;
+  transition: .3s linear;
 }
 
 a.slide_btn {
