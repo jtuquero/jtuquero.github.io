@@ -184,7 +184,7 @@
 	
 	.previous_btn {
 	  bottom: 0;
-	  left: 160px;
+	  left: 120px;
 	  margin: auto;
 	  position: absolute;
 	  top: 40px;
@@ -194,7 +194,7 @@
 	  bottom: 0;
 	  margin: auto;
 	  position: absolute;
-	  right: 160px;
+	  right: 120px;
 	  top: 40px;
 	}
 }/*max-width:767px*/
